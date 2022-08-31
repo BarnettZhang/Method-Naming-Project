@@ -31,6 +31,7 @@ if __name__ == "__main__":
         #  Wait for next request from client
         message = socket.recv().decode("utf-8") 
 
+        #  If the user wants to stop the model running at background, the plug-in will send this message to the server
         if message != "ThisIsToStopRunningTheModel":
             selected_code_raw = message
             selected_code = tokenizer.batch_encode_plus([message])["input_ids"]

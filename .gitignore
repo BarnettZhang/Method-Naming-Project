@@ -5,3 +5,9 @@ QuantizeStateUINT8
 __pycache__/CodeBERTaModel.cpython-37.pyc
 __pycache__/Config.cpython-37.pyc
 OriginalFullDatasetState
+QuantizeStateFLOAT16Encoder
+QuantizeStateINT8Encoder
+QuantizeStateINT8Layer1234
+QuantizeStateINT8Layer1234.zip
+QuantizeStateINT8Layer12345
+__pycache__/evaluate.cpython-37.pyc

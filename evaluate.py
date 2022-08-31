@@ -13,6 +13,8 @@ from Config import Config
 import sys
 import dill
 
+### This script is used to evaluate the quantized model directly without using the functions
+#   in the notebook. It is adjusted from Ugo Benassayag's project. (https://github.com/UgoBena/Sourcery_Project)
 
 def get_topK_metrics(tgt_seqs,topk_sequence,tgt_lens,topk_length):
     k = topk_length.size(1)
